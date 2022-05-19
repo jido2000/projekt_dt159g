@@ -1,0 +1,111 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    
+    
+}
+
+body{
+    font-family: "Times New Roman";
+    background-color:  rgb(107, 139, 105);
+}
+/*<Design på listan i menyn */
+li,a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+/* Design på vår header*/
+#mainheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    border-bottom: 2px solid white;
+}
+#hem_text{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+}
+#hem_text p{
+    font-size: 17px;
+
+}
+#mainheader h1{
+color: white;
+
+}
+/* Design på Navbaren "vår meny"*/
+#navbar{
+    list-style: none;
+}
+#navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+#navbar li a:hover{
+    color: black;
+    
+}
+/*Design på footer*/
+#mainfooter  {
+	text-align: center;
+	color: white;
+	padding: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+    border-top: 2px solid white;
+}
+#footer{
+    color: whitesmoke;
+}
+
+
+/*Design hem*/
+.hembild{
+    background-image: url( "https://lh3.googleusercontent.com/pw/AM-JKLWzQzkBbdL6YFv892Ctx8b5X3_XQ3G62oSD3G3gr8v1dn7709jfCR4WgFIu1O-w6w7xC9xDuVro7qjCBdH5kJZdbOH_SdnykDLJtkErz0Fdi05i8PLEZ-aqA9g3SNnF1gLw-fLAaPGDUhZE4RO4UwJMwg=w2068-h1378-no?authuser=0");
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*Design på kontakt sidan*/
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+  
+ .container {
+    padding: 0 16px;
+}
+  
+ .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.mColor a:hover{
+    color: darkblue;
+}
+

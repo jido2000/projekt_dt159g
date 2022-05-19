@@ -1,0 +1,16 @@
+{
+  "query": [
+    {
+      "code": "ContentsCode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "000004VU"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json"
+  }
+}
